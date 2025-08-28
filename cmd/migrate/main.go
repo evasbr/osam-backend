@@ -20,4 +20,5 @@ func main() {
 	if err != nil {
 		log.Fatal("AutoMigration failed:", err)
 	}
+	log.Println("Migration success")
 }
